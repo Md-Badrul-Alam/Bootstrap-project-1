@@ -1,0 +1,63 @@
+/* Msdia Query 1170px */
+@media (max-width:1170px){
+    /* General css */
+    .section-subtitle{
+        max-width: 60%;
+    }
+    /* 01 Navbar css */
+    .header .navbae{
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav{
+        margin: 2rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .header .navbar_right span{
+        padding: 0.2rem 0.5rem;
+    }
+
+
+    /* 02 banner Section */
+}
+
+
+/* Msdia Query 991px */
+@media (max-width:991px){
+    /* General css */
+    .about .banner-section,
+    .product .banner-section,
+    .gallery .banner-section,
+    .contact .banner-section{
+        padding: 12.5rem;
+        padding-bottom: 3rem;
+    }
+    /* 01 Navbar css */
+}
+/* Msdia Query 767px */
+@media (max-width:767px){
+    /* General css */
+    body,html{
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+    /* 02 banner Section */
+    .banner_section{
+        min-width: 70vh;
+    }
+    .banner_section .carousel-item{
+        height: 70v;
+    }
+}
+/* Msdia Query 590px */
+@media (max-width:590px){
+       /* General css */
+       body,html{
+        font-size: 7px;
+    }
+}
